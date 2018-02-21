@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A01509BD1F95DD4E00F6BAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01509BC1F95DD4E00F6BAE1 /* AppDelegate.swift */; };
+		A01509BF1F95DD4E00F6BAE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01509BE1F95DD4E00F6BAE1 /* ViewController.swift */; };
+		A01509C21F95DD4E00F6BAE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01509C01F95DD4E00F6BAE1 /* Main.storyboard */; };
+		A01509C41F95DD4E00F6BAE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01509C31F95DD4E00F6BAE1 /* Assets.xcassets */; };
+		A01509C71F95DD4E00F6BAE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01509C51F95DD4E00F6BAE1 /* LaunchScreen.storyboard */; };
+		A01509D21F95DD4E00F6BAE1 /* TableWisataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01509D11F95DD4E00F6BAE1 /* TableWisataTests.swift */; };
+		A01509DD1F95DD4E00F6BAE1 /* TableWisataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01509DC1F95DD4E00F6BAE1 /* TableWisataUITests.swift */; };
+		A01509EB1F95DE3A00F6BAE1 /* WisataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01509EA1F95DE3A00F6BAE1 /* WisataTableViewController.swift */; };
+		A01509ED1F95EDE800F6BAE1 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01509EC1F95EDE800F6BAE1 /* MapKitViewController.swift */; };
+		A01509EF1F9607B700F6BAE1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01509EE1F9607B700F6BAE1 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A01509CE1F95DD4E00F6BAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A01509B11F95DD4E00F6BAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A01509B81F95DD4E00F6BAE1;
+			remoteInfo = TableWisata;
+		};
+		A01509D91F95DD4E00F6BAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A01509B11F95DD4E00F6BAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A01509B81F95DD4E00F6BAE1;
+			remoteInfo = TableWisata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A01509B91F95DD4E00F6BAE1 /* TableWisata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableWisata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01509BC1F95DD4E00F6BAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A01509BE1F95DD4E00F6BAE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A01509C11F95DD4E00F6BAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A01509C31F95DD4E00F6BAE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A01509C61F95DD4E00F6BAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A01509C81F95DD4E00F6BAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01509CD1F95DD4E00F6BAE1 /* TableWisataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableWisataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01509D11F95DD4E00F6BAE1 /* TableWisataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableWisataTests.swift; sourceTree = "<group>"; };
+		A01509D31F95DD4E00F6BAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01509D81F95DD4E00F6BAE1 /* TableWisataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableWisataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01509DC1F95DD4E00F6BAE1 /* TableWisataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableWisataUITests.swift; sourceTree = "<group>"; };
+		A01509DE1F95DD4E00F6BAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01509EA1F95DE3A00F6BAE1 /* WisataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisataTableViewController.swift; sourceTree = "<group>"; };
+		A01509EC1F95EDE800F6BAE1 /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		A01509EE1F9607B700F6BAE1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A01509B61F95DD4E00F6BAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01509CA1F95DD4E00F6BAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01509D51F95DD4E00F6BAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A01509B01F95DD4D00F6BAE1 = {
+			isa = PBXGroup;
+			children = (
+				A01509BB1F95DD4E00F6BAE1 /* TableWisata */,
+				A01509D01F95DD4E00F6BAE1 /* TableWisataTests */,
+				A01509DB1F95DD4E00F6BAE1 /* TableWisataUITests */,
+				A01509BA1F95DD4E00F6BAE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A01509BA1F95DD4E00F6BAE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A01509B91F95DD4E00F6BAE1 /* TableWisata.app */,
+				A01509CD1F95DD4E00F6BAE1 /* TableWisataTests.xctest */,
+				A01509D81F95DD4E00F6BAE1 /* TableWisataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A01509BB1F95DD4E00F6BAE1 /* TableWisata */ = {
+			isa = PBXGroup;
+			children = (
+				A01509BC1F95DD4E00F6BAE1 /* AppDelegate.swift */,
+				A01509BE1F95DD4E00F6BAE1 /* ViewController.swift */,
+				A01509C01F95DD4E00F6BAE1 /* Main.storyboard */,
+				A01509EE1F9607B700F6BAE1 /* DetailViewController.swift */,
+				A01509EC1F95EDE800F6BAE1 /* MapKitViewController.swift */,
+				A01509EA1F95DE3A00F6BAE1 /* WisataTableViewController.swift */,
+				A01509C31F95DD4E00F6BAE1 /* Assets.xcassets */,
+				A01509C51F95DD4E00F6BAE1 /* LaunchScreen.storyboard */,
+				A01509C81F95DD4E00F6BAE1 /* Info.plist */,
+			);
+			path = TableWisata;
+			sourceTree = "<group>";
+		};
+		A01509D01F95DD4E00F6BAE1 /* TableWisataTests */ = {
+			isa = PBXGroup;
+			children = (
+				A01509D11F95DD4E00F6BAE1 /* TableWisataTests.swift */,
+				A01509D31F95DD4E00F6BAE1 /* Info.plist */,
+			);
+			path = TableWisataTests;
+			sourceTree = "<group>";
+		};
+		A01509DB1F95DD4E00F6BAE1 /* TableWisataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A01509DC1F95DD4E00F6BAE1 /* TableWisataUITests.swift */,
+				A01509DE1F95DD4E00F6BAE1 /* Info.plist */,
+			);
+			path = TableWisataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A01509B81F95DD4E00F6BAE1 /* TableWisata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01509E11F95DD4F00F6BAE1 /* Build configuration list for PBXNativeTarget "TableWisata" */;
+			buildPhases = (
+				A01509B51F95DD4E00F6BAE1 /* Sources */,
+				A01509B61F95DD4E00F6BAE1 /* Frameworks */,
+				A01509B71F95DD4E00F6BAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableWisata;
+			productName = TableWisata;
+			productReference = A01509B91F95DD4E00F6BAE1 /* TableWisata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A01509CC1F95DD4E00F6BAE1 /* TableWisataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01509E41F95DD4F00F6BAE1 /* Build configuration list for PBXNativeTarget "TableWisataTests" */;
+			buildPhases = (
+				A01509C91F95DD4E00F6BAE1 /* Sources */,
+				A01509CA1F95DD4E00F6BAE1 /* Frameworks */,
+				A01509CB1F95DD4E00F6BAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A01509CF1F95DD4E00F6BAE1 /* PBXTargetDependency */,
+			);
+			name = TableWisataTests;
+			productName = TableWisataTests;
+			productReference = A01509CD1F95DD4E00F6BAE1 /* TableWisataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A01509D71F95DD4E00F6BAE1 /* TableWisataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01509E71F95DD4F00F6BAE1 /* Build configuration list for PBXNativeTarget "TableWisataUITests" */;
+			buildPhases = (
+				A01509D41F95DD4E00F6BAE1 /* Sources */,
+				A01509D51F95DD4E00F6BAE1 /* Frameworks */,
+				A01509D61F95DD4E00F6BAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A01509DA1F95DD4E00F6BAE1 /* PBXTargetDependency */,
+			);
+			name = TableWisataUITests;
+			productName = TableWisataUITests;
+			productReference = A01509D81F95DD4E00F6BAE1 /* TableWisataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A01509B11F95DD4E00F6BAE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Hilmy Corp.";
+				TargetAttributes = {
+					A01509B81F95DD4E00F6BAE1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A01509CC1F95DD4E00F6BAE1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A01509B81F95DD4E00F6BAE1;
+					};
+					A01509D71F95DD4E00F6BAE1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A01509B81F95DD4E00F6BAE1;
+					};
+				};
+			};
+			buildConfigurationList = A01509B41F95DD4E00F6BAE1 /* Build configuration list for PBXProject "TableWisata" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A01509B01F95DD4D00F6BAE1;
+			productRefGroup = A01509BA1F95DD4E00F6BAE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A01509B81F95DD4E00F6BAE1 /* TableWisata */,
+				A01509CC1F95DD4E00F6BAE1 /* TableWisataTests */,
+				A01509D71F95DD4E00F6BAE1 /* TableWisataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A01509B71F95DD4E00F6BAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01509C71F95DD4E00F6BAE1 /* LaunchScreen.storyboard in Resources */,
+				A01509C41F95DD4E00F6BAE1 /* Assets.xcassets in Resources */,
+				A01509C21F95DD4E00F6BAE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01509CB1F95DD4E00F6BAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01509D61F95DD4E00F6BAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A01509B51F95DD4E00F6BAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01509BF1F95DD4E00F6BAE1 /* ViewController.swift in Sources */,
+				A01509BD1F95DD4E00F6BAE1 /* AppDelegate.swift in Sources */,
+				A01509EF1F9607B700F6BAE1 /* DetailViewController.swift in Sources */,
+				A01509ED1F95EDE800F6BAE1 /* MapKitViewController.swift in Sources */,
+				A01509EB1F95DE3A00F6BAE1 /* WisataTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01509C91F95DD4E00F6BAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01509D21F95DD4E00F6BAE1 /* TableWisataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01509D41F95DD4E00F6BAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01509DD1F95DD4E00F6BAE1 /* TableWisataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A01509CF1F95DD4E00F6BAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A01509B81F95DD4E00F6BAE1 /* TableWisata */;
+			targetProxy = A01509CE1F95DD4E00F6BAE1 /* PBXContainerItemProxy */;
+		};
+		A01509DA1F95DD4E00F6BAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A01509B81F95DD4E00F6BAE1 /* TableWisata */;
+			targetProxy = A01509D91F95DD4E00F6BAE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A01509C01F95DD4E00F6BAE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01509C11F95DD4E00F6BAE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A01509C51F95DD4E00F6BAE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01509C61F95DD4E00F6BAE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A01509DF1F95DD4E00F6BAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A01509E01F95DD4E00F6BAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A01509E21F95DD4F00F6BAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = TableWisata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.TableWisata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A01509E31F95DD4F00F6BAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = TableWisata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.TableWisata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A01509E51F95DD4F00F6BAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = TableWisataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.TableWisataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableWisata.app/TableWisata";
+			};
+			name = Debug;
+		};
+		A01509E61F95DD4F00F6BAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = TableWisataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.TableWisataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableWisata.app/TableWisata";
+			};
+			name = Release;
+		};
+		A01509E81F95DD4F00F6BAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = TableWisataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.TableWisataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableWisata;
+			};
+			name = Debug;
+		};
+		A01509E91F95DD4F00F6BAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = TableWisataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.TableWisataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableWisata;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A01509B41F95DD4E00F6BAE1 /* Build configuration list for PBXProject "TableWisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01509DF1F95DD4E00F6BAE1 /* Debug */,
+				A01509E01F95DD4E00F6BAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01509E11F95DD4F00F6BAE1 /* Build configuration list for PBXNativeTarget "TableWisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01509E21F95DD4F00F6BAE1 /* Debug */,
+				A01509E31F95DD4F00F6BAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01509E41F95DD4F00F6BAE1 /* Build configuration list for PBXNativeTarget "TableWisataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01509E51F95DD4F00F6BAE1 /* Debug */,
+				A01509E61F95DD4F00F6BAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01509E71F95DD4F00F6BAE1 /* Build configuration list for PBXNativeTarget "TableWisataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01509E81F95DD4F00F6BAE1 /* Debug */,
+				A01509E91F95DD4F00F6BAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A01509B11F95DD4E00F6BAE1 /* Project object */;
+}
